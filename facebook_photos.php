@@ -1,5 +1,7 @@
 <?php
 
+// Methods for pulling Facebook albums and photos
+
 function albums()
 {		
 	try
