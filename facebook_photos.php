@@ -1,6 +1,6 @@
 <?php
 
-public function albums()
+function albums()
 {		
 	try
 	{
@@ -24,7 +24,7 @@ public function albums()
 	echo $album_viewer;
 }
 
-public function photos($aid)
+function photos($aid)
 {	
 	$params['fields'] = 'name,source,images,picture';
     $params = http_build_query($params,null,'&');
